@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeX Icons</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="root">
+        <header class="header">
+            <h1>CodeX Icons</h1>
+            <p>Click on the icon to copy it to the clipboard</p>
+        </header>
+    </div>
+
+    <script type="module">
+        import * as icons from '../dist/index.mjs';
+
+        const root = document.getElementById('root');
+
+        const gridContainer = document.createElement('div');
+
+        gridContainer.className = 'grid-container';
+        root.appendChild(gridContainer);
+
+        const iconsBlocks = Object
+            .entries(icons)
+            .map(([name, icon]) => {
+                const container = document.createElement('div');
+
+                container.className = 'icon-container';
+                container.title = name;
+                container.innerHTML += icon;
+
+                container.addEventListener('click', () => {
+                    navigator.clipboard.writeText(icon);
+                })
+
+                return container;
+        });
+
+        iconsBlocks.forEach(block => gridContainer.appendChild(block));
+    </script>
+</body>
+</html>

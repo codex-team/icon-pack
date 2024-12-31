@@ -2,6 +2,7 @@
 .idea/
 bin/
 dist/icons/
+example/
 src/
 .gitignore
 yarn.lock

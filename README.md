@@ -55,6 +55,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconChevronRight](dist/icons/IconChevronRight.svg) | `IconChevronRight` |
 | ![IconChevronUp](dist/icons/IconChevronUp.svg) | `IconChevronUp` |
 | ![IconClipboard](dist/icons/IconClipboard.svg) | `IconClipboard` |
+| ![IconCogWheel](dist/icons/IconCogWheel.svg) | `IconCogWheel` |
 | ![IconCollapse](dist/icons/IconCollapse.svg) | `IconCollapse` |
 | ![IconColor](dist/icons/IconColor.svg) | `IconColor` |
 | ![IconCopy](dist/icons/IconCopy.svg) | `IconCopy` |

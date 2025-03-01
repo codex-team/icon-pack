@@ -57,6 +57,8 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconClipboard](dist/icons/IconClipboard.svg) | `IconClipboard` |
 | ![IconCollapse](dist/icons/IconCollapse.svg) | `IconCollapse` |
 | ![IconColor](dist/icons/IconColor.svg) | `IconColor` |
+| ![IconCommentClear](dist/icons/IconCommentClear.svg) | `IconCommentClear` |
+| ![IconComment](dist/icons/IconComment.svg) | `IconComment` |
 | ![IconCopy](dist/icons/IconCopy.svg) | `IconCopy` |
 | ![IconCross](dist/icons/IconCross.svg) | `IconCross` |
 | ![IconCurlyBrackets](dist/icons/IconCurlyBrackets.svg) | `IconCurlyBrackets` |
